@@ -1,4 +1,4 @@
-![gla university logo](./images/uni_logo.png)
+![gla university logo](https://github.com/dbc2201/Sample-Mini-Project/blob/master/images/uni_logo.png?raw=true)
 
 # GLA University Mathura, 2019  
 
