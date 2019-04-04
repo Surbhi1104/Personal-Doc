@@ -1,9 +1,9 @@
 /*------------------------------------------------------------------
 Project:  ComingSoon
-Version:  
-Last change:  
+Version:
+Last change:
 Assigned to:  Bach Le
-Primary use:  
+Primary use:
 -------------------------------------------------------------------*/
 
 
@@ -13,12 +13,12 @@ Primary use:
 
 @font-face {
   font-family: Ubuntu-Regular;
-  src: url('../fonts/Ubuntu/Ubuntu-Regular.ttf'); 
+  src: url('../fonts/Ubuntu/Ubuntu-Regular.ttf');
 }
 
 @font-face {
   font-family: Ubuntu-Bold;
-  src: url('../fonts/Ubuntu/Ubuntu-Bold.ttf'); 
+  src: url('../fonts/Ubuntu/Ubuntu-Bold.ttf');
 }
 
 
@@ -185,7 +185,7 @@ Primary use:
 .l1-txt1 {
   font-family: Ubuntu-Bold;
   font-size: 60px;
-  color: #fff;
+  color: #000000;
   line-height: 1.2;
   text-transform: uppercase;
 }
@@ -241,6 +241,11 @@ Primary use:
 [ Height ]*/
 
 
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
 
 
 /*//////////////////////////////////////////////////////////////////
@@ -249,11 +254,27 @@ Primary use:
 
 /*---------------------------------------------*/
 .bg-g1 {
-  background: #fb5f7e;
-  background: -webkit-linear-gradient(bottom, #f77062, #fe5196);
-  background: -o-linear-gradient(bottom, #f77062, #fe5196);
-  background: -moz-linear-gradient(bottom, #f77062, #fe5196);
-  background: linear-gradient(bottom, #f77062, #fe5196);
+background: -webkit-gradient(linear, left bottom, right top, from(#08aeea), to(#b721ff));
+  background: -webkit-linear-gradient(bottom left, #08aeea 0%, #b721ff 100%);
+  background: -moz-linear-gradient(bottom left, #08aeea 0%, #b721ff 100%);
+  background: -o-linear-gradient(bottom left, #08aeea 0%, #b721ff 100%);
+  background: linear-gradient(to top right, #08aeea 0%, #b721ff 100%); 
+ /* position: relative;
+  width: 100%;
+  height: 100%;
+  background: url('244679-P3QNL2-176.png') center center no-repeat;
+  background-size: cover;
+
+  &:before {
+    content: '';
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background-image: linear-gradient(to bottom right,#002f4b,#dc4225);
+	opacity: .6;
+  }*/
 }
 
 
@@ -263,9 +284,9 @@ Primary use:
 /*//////////////////////////////////////////////////////////////////
 [ Border ]*/
 .bor1 {
-  border-bottom-right-radius: 15px; 
+  border-bottom-right-radius: 15px;
   border-bottom-left-radius: 15px;
-  overflow: hidden; 
+  overflow: hidden;
 }
 
 .bor2 {
@@ -275,7 +296,7 @@ Primary use:
 
 
 /*==================================================================
-   WHERE WHERE WHERE WHERE WHERE WHERE WHERE WHERE WHERE WHERE WHERE  
+   WHERE WHERE WHERE WHERE WHERE WHERE WHERE WHERE WHERE WHERE WHERE
 ==================================================================*/
 .where1 {
   margin: 0 10px 20px 10px;
@@ -283,7 +304,7 @@ Primary use:
 
 
 /*==================================================================
- HOW HOW HOW HOW HOW HOW HOW HOW HOW HOW HOW HOW HOW HOW HOW HOW HOW 
+ HOW HOW HOW HOW HOW HOW HOW HOW HOW HOW HOW HOW HOW HOW HOW HOW HOW
 ==================================================================*/
 .placeholder0::-webkit-input-placeholder { color: #999999;}
 .placeholder0:-moz-placeholder { color: #999999;}
@@ -466,7 +487,7 @@ Primary use:
   .respon1 {
     padding-top: 35px;
   }
-  
+
 }
 
 
