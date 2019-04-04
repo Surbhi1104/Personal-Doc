@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Personal Doctor</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="icon" type="image/png" href="{{url_for('static',filename='images/icons/doctor.png')}}"/>
+	<link rel="stylesheet" type="text/css" href="{{url_for('static',filename='vendor/bootstrap/css/bootstrap.min.css')}}">
+	<link rel="stylesheet" type="text/css" href="{{url_for('static',filename='fonts/font-awesome-4.7.0/css/font-awesome.min.css')}}">
+	<link rel="stylesheet" type="text/css" href="{{url_for('static',filename='vendor/animate/animate.css')}}">
+	<link rel="stylesheet" type="text/css" href="{{url_for('static',filename='vendor/select2/select2.min.css')}}">
+	<link rel="stylesheet" type="text/css" href="{{url_for('static',filename='css/util.css')}}">
+	<link rel="stylesheet" type="text/css" href="{{url_for('static',filename='css/main.css')}}">
+
+	<link rel="icon" type="image/png" href={{ url_for('static',filename = 'images/icons/doctor.png')}}"/>
+	<link rel="stylesheet" type="text/css" href="{{ url_for('static',filename = 'vendor/bootstrap/css/bootstrap.min.css')}}">
+	<link rel="stylesheet" type="text/css" href="{{ url_for('static',filename = 'fonts/font-awesome-4.7.0/css/font-awesome.min.css')}}">
+	<link rel="stylesheet" type="text/css" href="{{ url_for('static',filename = 'vendor/animate/animate.css')}}">
+	<link rel="stylesheet" type="text/css" href="{{ url_for('static',filename = 'vendor/select2/select2.min.css')}}">
+	<link rel="stylesheet" type="text/css" href="{{ url_for('static',filename = 'css/util.css')}}">
+	<link rel="stylesheet" type="text/css" href="{{ url_for('static',filename = 'css/main.css')}}">
+
+</head>
+<body>
+	<div class="bg-g1 size1 flex-w flex-col-c-sb p-l-15 p-r-15 p-b-30">
+		<div class="flex-col-c w-full p-t-50 p-b-80">
+			<h3 class="l1-txt1 txt-center p-b-10">
+				Personal Doctor
+			</h3>
+			<p class="txt-center l1-txt2 p-b-43">
+				Good health and good sense are two of  life’s greatest blessings. They should be well preserved. The personal doctor is a chatbot that can result in an integral part of your daily life. This chatbot will give you immediate solutions to your illness. It can also give you tips for a healthy lifestyle. This chatbot is not a replacement of the doctor. It is just an aid when the doctor is away.
+			</p>
+
+			<div class="flex-w flex-c-m w-full contact100-form">
+				<a href="login">
+				<button class="flex-c-m s1-txt4 size3 how-btn trans-04 where1">
+					LogIn
+				</button>
+			</a>
+			<a href="signup">
+				<button class="flex-c-m s1-txt4 size3 how-btn trans-04 where1">
+					SignUp
+				</button>
+			</a>
+			</div>
+
+		</div>
+	</div>
+	<script src="{{url_for('static',filename='vendor/jquery/jquery-3.2.1.min.js')}}"></script>
+	<script src="{{url_for('static',filename='vendor/bootstrap/js/popper.js')}}"></script>
+	<script src="{{url_for('static',filename='vendor/bootstrap/js/bootstrap.min.js')}}"></script>
+	<script src="{{url_for('static',filename='vendor/select2/select2.min.js')}}"></script>
+	<script src="{{url_for('static',filename='vendor/tilt/tilt.jquery.min.js')}}"></script>
+	<script >
+		$('.js-tilt').tilt({
+			scale: 1.1
+		})
+	</script>
+	<script src="{{url_for('static',filename='js/main.js')}}"></script>
+
+</body>
+</html>
