@@ -90,7 +90,7 @@
                             </div>
                         </div>
                         <div class="form-row">
-                            <div class="name">Height (Cm)</div>
+                            <div class="name">Height(Cm)</div>
                             <div class="value">
                                 <div class="input-group">
                                     <input class="input--style-5" type="number" name="height" required>
@@ -105,8 +105,8 @@
                             <div class="value">
                                 <div class="input-group">
                                     <div class="rs-select2 js-select-simple select--no-search">
-                                        <select name="profession" required>
-                                            <option value="">None</option>
+                                        <select name="profession"  required>
+                                            <option disabled="disabled" selected="selected">Choose option</option>
                                             <option value = "student">Student</option>
                                             <option value = "teacher">Teacher</option>
                                             <option value = "business man">Business Man</option>
@@ -134,11 +134,6 @@
                             <a href="login">Already have an account?</a>
                         </div>
                     </form>
-                    {% if error %}
-                        <p class = "error"><strong>Error:</strong>{{error}}
-                    {% endif %}
-
-
                 </div>
             </div>
         </div>
